@@ -72,10 +72,10 @@ require_once 'includes/header.php';
         <div class="mar-l p-2">
             <div class="mb-3">
                 <div class="h6">Question data:</div>
-                <div class="row mar-y-o">
+                <div class="row col-md-12 mar-y-o">
                     <div class="card col-md-8 col-12 exercise-color">
                         <div class="card-body">
-                            <span>used to demonstrate the visual form of a document or a typeface without relying on meaningful content</span>
+                            <span></span>
                         </div>
                     </div>
                     <div class="col-md-4 col-12 question-btn">
@@ -88,7 +88,7 @@ require_once 'includes/header.php';
                 <div class="row mar-y-o">
                     <div class="card col-md-8 col-12 exercise-color">
                         <div class="card-body">
-                            <span>used to demonstrate the visual form of a document or a typeface without relying on meaningful content</span>
+                            <span></span>
                         </div>
                     </div>
                     <div class="col-md-4 col-12 question-btn">
