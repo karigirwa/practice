@@ -151,8 +151,6 @@ body {
 .Social-media a{
   display: flex;
   background: #e3edf7;
-  /* height: 45px;
-  width: 45px; */
   padding: 15px;
   margin: 0 15px;
   border-radius: 8px;
@@ -199,6 +197,36 @@ body {
   color: #f00;
 }
 
+.modal-body{
+    background-color: #F8F8F8!important;
+}
+
+.modal-body-text{
+    background-color: #fff;
+    padding: 17px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.pad-5{
+    padding: .5rem!important;
+}
+
+.pad-3{
+    padding: .3rem!important;
+}
+
+.h-nav{
+    position: -webkit-sticky;
+    position: stick!important;
+    top: 0!important;
+    z-index: 1;
+}
+
+@media (max-width: 768px){
+
+}
 
 @media (min-width: 768px) {
     #wrapper {

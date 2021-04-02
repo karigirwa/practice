@@ -16,10 +16,10 @@ require_once 'includes/header.php';
                 Sponsored by Master Card Foundation
             </div>
             <li>
-                <a href="#">Dashboard</a>
+                <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="#">Competition</a>
+                <a href="competition.php">Competition</a>
             </li>
         </ul>
     </div>
@@ -31,7 +31,7 @@ require_once 'includes/header.php';
             <button class="btn btn-outline-warning btn-sm" type="submit">logout</button>
         </div>
     </div>
-    
+
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
@@ -57,7 +57,7 @@ require_once 'includes/header.php';
                         <div class="d-flex justify-content-center align-content-start flex-wrap">
                             <button type="button" class="btn btn-info m-3">Retake test</button>
                             <button type="button" class="btn btn-success m-3">Ask question</button>
-                            <button type="button" class="btn btn-warning m-3">Create a challenge</button>
+                            <button type="button" class="btn btn-warning m-3" data-bs-toggle="modal" data-bs-target="#courses">Create a challenge</button>
                             <button type="button" class="btn btn-success m-3">View Answer Sheet</button>
                             <button type="button" class="btn btn-info m-3">Share score on the forum</button>
                         </div>
@@ -78,9 +78,28 @@ require_once 'includes/header.php';
     </div>
     <!-- /#page-content-wrapper -->
 
-<!-- </div> -->
-<!-- /#wrapper -->
+    <!-- </div> -->
+    <!-- /#wrapper -->
+    <!-- Modal -->
+    <div class="modal fade" id="courses" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="modal-body-text">
+                        <p>During a period of a week, other people will be able to attempt the challenge of doing this test! In the challenge tab you will be able to view the ranking of who took the challenge.</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" name="submit" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                        <button type="submit" name="submit" class="btn btn-success">Launch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<?php
-require_once 'includes/footer.php'
-?>
+    <?php
+    require_once 'includes/footer.php'
+    ?>
